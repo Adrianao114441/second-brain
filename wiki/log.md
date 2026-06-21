@@ -1,5 +1,13 @@
 # Log
 
+## Debrief — 2026-06-21 23:59
+type: debrief
+
+- No progress made on active projects today ([[Kaggle Pokemon TCG AI Battle Challenge]], [[WallClimber]], [[Whalerapy]]).
+- No conversations or decisions to carry forward.
+
+*Rest day with no signals to record.*
+
 ## Briefing — 2026-06-21 00:00
 
 - Projects reviewed: Kaggle Pokemon TCG AI Battle Challenge, Wall Climber Robot, Whalerapy.
