@@ -6,6 +6,8 @@ last-updated: 2026-06-21
 
 # Whalerapy
 
+
+
 Whalerapy is an aromatherapy machine that detects a user's emotional state and responds with an appropriate aromatherapy treatment. It was developed as part of a Stanford proposal. The project combines facial emotion detection, speech-based emotion detection, and physical hardware control via Arduino.
 
 ## Emotion Detection Pipeline
@@ -44,11 +46,32 @@ Whalerapy is an aromatherapy machine that detects a user's emotional state and r
 - OpenAI Whisper, Librosa, scikit-learn.
 - Arduino.
 
+## Competition Materials
+
+### Stanford Submission
+
+A suite of Canva materials was prepared for a Stanford competition submission:
+
+- 17-slide competition presentation.
+- 17-page proposal document.
+- 2-page poster.
+- 1-page leaflet.
+
+All four assets were last edited on 2026-06-19.
+
+### World Robot Olympiad (WRO) 2026 Macau
+
+A separate set of materials was prepared for the [[WRO]] Macau submission:
+
+- 24-slide Canva presentation (2026 Macau WRO Whalerapy Presentation).
+- 16-page WRO proposal.
+- 2-page WRO poster.
+
 ## Related Projects
 
 - [[Emotion Head]] — shares the Mini-XCEPTION facial emotion detection pipeline.
-- [[Stanford Proposal]] — the proposal submitted in the context of Stanford.
+- [[WRO]] — the World Robot Olympiad competition for which Whalerapy is the 2026 Macau entry.
 
 ## Status
 
-Prototype built. Stanford proposal submitted. See `raw/Whalerapy/` for full source code.
+Prototype built. Stanford proposal submitted June 2026. WRO 2026 Macau materials submitted June 2026. See `raw/Whalerapy/` for full source code and `raw/canva/` for competition assets.

@@ -33,6 +33,10 @@ The project also includes a 15-degree-of-freedom humanoid robot, for which a ful
 - Android app control.
 - Vacuum pump hardware.
 
+## Competition Context
+
+A Canva poster titled 真空吸附攀附式檢測機械人 (Vacuum Suction Adhesion Inspection Robot) was produced for competition submission. This confirms the project is linked to [[Robo Fest]] and / or [[WRO]], both of which involve the same team.
+
 ## Status
 
-Hardware prototype. Adrian to confirm competition context (likely Robo Fest or [[WRO]]).
+Hardware prototype with Arduino vacuum pump control implemented. Competition entry prepared for [[Robo Fest]] and / or [[WRO]].
