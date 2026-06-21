@@ -29,6 +29,6 @@ REVIEW THIS FILE WEEKLY.
 
 - **Bianca** — Robotics teammate. Active on Wall Climber and WRO work.
 - **Ashley** — Robotics teammate. Active on Wall Climber and WRO work.
-- **Oscar** — Robotics teammate. Active on Wall Climber and WRO work.
+- **Oscar** — Robotics teammate. Active on Whaler and WRO work.
 - **Cabrina** — Robotics teammate. Active on Wall Climber and WRO work.
 - **Benjamin Tam** — Co-author on AI tutoring bias research study at Pui Ching.
