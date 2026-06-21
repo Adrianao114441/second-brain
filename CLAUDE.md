@@ -4,8 +4,21 @@
 
 This vault is Adrian's AI second brain, hosted in Obsidian.
 
+```
+vault/
+├── raw/             # Source material Claude reads but does not edit
+├── wiki/            # Claude-maintained cross-linked knowledge base
+│   ├── concepts/
+│   ├── people/
+│   ├── projects/
+│   └── log.md
+├── priorities.md    # User-maintained priorities (read at start of /briefing and /debrief)
+└── CLAUDE.md
+```
+
 - `raw/` — Source material: dropped-in PDFs, notes, clippings, and drafts. Claude reads this but does not edit it.
 - `wiki/` — Claude-maintained knowledge base of cross-linked pages organised by topic. Sub-folders: `concepts/`, `people/`, `projects/`. The running log lives at `wiki/log.md`.
+- `priorities.md` is the user's priorities file at the vault root. It contains Projects (short-term deliverables with target dates), Areas (ongoing responsibilities), Resources (topics for reference), Archive (completed or paused items), and Key People. Read this file at the start of every /briefing and /debrief. Prioritise signals tied to Projects and Areas; use Resources for background context; skip anything in Archive.
 
 ## Page Conventions
 
