@@ -51,8 +51,14 @@ Per `priorities.md`. Check that file for current deliverables and target dates.
 
 ## People
 
+- [[Adrian Ao]]: vault owner; ML/AI student at Pui Ching Middle School (Coloane Campus).
 - [[Gabriel Lo]]: Whalerapy Stanford track team member.
 - [[Yves Wong]]: Whalerapy Stanford track team member.
+- [[Oscar Ao]]: robotics teammate; Whalerapy WRO / brochure track.
+- [[Cabrina Wong]]: robotics teammate; Whalerapy WRO / brochure track.
+- [[Abigail Choi]]: teammate; Whalerapy WRO / brochure track.
+- [[Bianca Ng]]: robotics teammate ([[Robo Fest]], [[WRO]]).
+- [[Ashley Pat]]: robotics teammate ([[Robo Fest]], [[WRO]]).
 
 ## Improvement Backlogs
 

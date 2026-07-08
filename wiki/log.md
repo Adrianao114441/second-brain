@@ -1,5 +1,11 @@
 # Log
 
+## Update — 2026-07-08 (people pages)
+
+- Pages created: Adrian Ao, Oscar Ao, Cabrina Wong, Abigail Choi, Bianca Ng, Ashley Pat. Adrian supplied full names for Bianca Ng and Ashley Pat (previously first names only in CLAUDE.md).
+- Index People section expanded to list all eight people pages.
+- Note: Peony (robotics teammate per CLAUDE.md) still has no page; full name unknown.
+
 ## Update — 2026-07-08
 
 - Adrian confirmed the two Whalerapy team credits (Stanford: Adrian Ao, Gabriel Lo, Yves Wong; WRO/brochure: Oscar Ao, Cabrina Wong, Abigail Choi) are both correct, not an error. Whalerapy page updated to reflect this.
