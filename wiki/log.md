@@ -1,5 +1,9 @@
 # Log
 
+## Update — 2026-07-08 (Adrian Ao hub page)
+
+- Adrian Ao page rewritten as a hub linking to every wiki page: all 16 projects, 3 competition/event pages, 4 concept pages, all 7 people pages, and the 16 improvement backlog pages. Obsidian graph view now connects everything through this page.
+
 ## Update — 2026-07-08 (people pages)
 
 - Pages created: Adrian Ao, Oscar Ao, Cabrina Wong, Abigail Choi, Bianca Ng, Ashley Pat. Adrian supplied full names for Bianca Ng and Ashley Pat (previously first names only in CLAUDE.md).
