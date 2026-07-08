@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "cat \"$CLAUDE_PROJECT_DIR/.claude/hooks/second-brain-context.json\"",
+            "statusMessage": "Loading second brain context"
+          }
+        ]
+      }
+    ]
+  }
+}
