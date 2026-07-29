@@ -1,7 +1,7 @@
 ---
 title: Violin and Music
 type: concept
-last-updated: 2026-07-08
+last-updated: 2026-07-27
 ---
 
 # Violin and Music
@@ -23,6 +23,7 @@ Adrian is a member of the **Macau Youth Symphony Orchestra**:
 - Usually plays **2nd violin, 2nd row**.
 - Sometimes serves as **head of 2nd violin** (section leader).
 
-## Upcoming
+## Competitions and Exams
 
-- Violin exam scheduled for 2026-07-12, 10:00–10:30 (see log entry from 2026-07-06 calendar session).
+- **2026-07-27 Violin Competition:** received the 良好 (Good) prize. Performance slot 09:15–09:30.
+- Violin exam was scheduled for 2026-07-12, 10:00–10:30 (see log entry from 2026-07-06 calendar session); result not yet recorded.

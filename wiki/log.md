@@ -1,5 +1,22 @@
 # Log
 
+## Update — 2026-07-27 (violin competition result)
+
+- Adrian received the 良好 (Good) prize at today's violin competition (performance slot 09:15–09:30). Recorded on the Violin and Music page.
+
+## Briefing Addendum — 2026-07-27
+
+- Calendar retrieved via Adrian's own Google Calendar MCP server (the official connector's authorization is expired; use Adrian's MCP going forward).
+- Today's events: Violin Competition 09:15–09:30, Hangout 11:00–15:00 (Asia/Macau).
+- Note: a **Violin Competition** is happening today — worth logging the result on the Violin and Music page afterwards.
+
+## Briefing — 2026-07-27 00:00
+
+- Projects reviewed: Kaggle Pokemon TCG AI Battle Challenge, Wall Climber Robot, Whalerapy.
+- Calendar: skipped (Google Calendar connector authorization expired).
+- Log entries scanned: 3.
+- Suggested actions: 5.
+
 ## Update — 2026-07-08 (Adrian Ao hub page)
 
 - Adrian Ao page rewritten as a hub linking to every wiki page: all 16 projects, 3 competition/event pages, 4 concept pages, all 7 people pages, and the 16 improvement backlog pages. Obsidian graph view now connects everything through this page.
