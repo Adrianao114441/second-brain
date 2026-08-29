@@ -11,6 +11,7 @@ vault/
 ├── raw/             # Source material Claude reads but does not edit
 │   ├── canva/           # Pulled Canva designs
 │   ├── claude-sessions/ # Recent Claude Code session transcripts
+│   ├── claude-web/      # Split-out claude.ai chat exports (manual drop-in, see /pull-sources)
 │   ├── gmail/           # Pulled email
 │   ├── google-drive/    # Pulled Drive files
 │   ├── notion/          # Pulled Notion pages

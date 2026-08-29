@@ -1,8 +1,16 @@
 # Automatic morning briefing, on your own machine
 
-This makes `/briefing` run every morning and write straight into `wiki/log.md`.
-No GitHub permissions involved, because nothing has to push anywhere. Obsidian
-picks the change up immediately, and OneDrive syncs it.
+This runs the full morning pipeline every day: `/pull-sources` (fetches Claude
+chat sessions, Gmail, Notion, Drive, Canva, and Desktop files into `raw/`),
+`/ingest` (processes `raw/` into `wiki/` pages), then `/briefing` (writes a
+briefing straight into `wiki/log.md`). No GitHub permissions involved, because
+nothing has to push anywhere. Obsidian picks the change up immediately, and
+OneDrive syncs it.
+
+Because `/ingest` runs unattended right after `/pull-sources`, there is no
+manual triage step: everything pulled gets ingested into the wiki
+automatically, unlike a manual `/pull-sources` run where you'd normally
+review and delete unwanted files first.
 
 ## Step 1. Save the script
 
@@ -20,8 +28,10 @@ Open PowerShell and run:
     powershell -ExecutionPolicy Bypass -File "C:\Users\user\Scripts\Run-MorningBriefing.ps1"
 
 Then open `wiki/log.md` in Obsidian. A new `## Briefing` entry should be at the
-top. If it is, the automation will work. If not, look in `.briefing-runs\` inside
-the vault, where each run writes what happened.
+top, and `raw/` should have new files (including `raw/claude-sessions/`). If
+so, the automation will work. If not, look in `.briefing-runs\` inside the
+vault, where each run writes what happened, one section per step
+(`/pull-sources`, `/ingest`, `/briefing`).
 
 Do not skip this step. It is much easier to fix a problem you can see now than
 one that happens silently at 07:00.

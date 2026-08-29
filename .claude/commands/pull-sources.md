@@ -204,6 +204,42 @@ Then write a Markdown summary of the design: title, design type (e.g. presentati
 
 ---
 
+## Source 7 · Claude.ai Chat Export (manual drop-in)
+
+Read a manually exported claude.ai (web/desktop app) conversation history file. There is no API or connector for this — Adrian must periodically export it himself via claude.ai **Settings → Privacy → Export data**, wait for the emailed download link, unzip it, and place `conversations.json` at `raw/local/claude-export/conversations.json`.
+
+**Pull:** All conversations in `raw/local/claude-export/conversations.json`, if present. The file is a full cumulative export (not just new conversations), so dedupe below matters more here than the 7-day windows used by other sources.
+**Volume cap:** None. Process every conversation object in the file.
+**Include filter:** Every conversation in the export's top-level array.
+**Exclude filter:** None.
+**Dedupe:** Skip if a file matching `????-??-??-*-<short-uuid>.md` already exists in `raw/claude-web/`, where `<short-uuid>` is the first 8 characters of the conversation's `uuid` field. This is keyed on uuid rather than name, since re-exports repeat old conversations verbatim.
+**Write to:** `raw/claude-web/`
+**Naming:** `YYYY-MM-DD-<conversation-title-slug>-<short-uuid>.md` where the date is the conversation's `created_at` date (UTC, date part only), and the slug is the conversation's `name` field in kebab-case, lowercased, truncated to 60 characters. If `name` is empty, use `untitled`.
+
+For each file written, prepend above the YAML frontmatter:
+
+```
+> claude-web: Adrian, <conversation name>. <One-sentence summary of what was discussed.>
+```
+
+Then write the YAML frontmatter:
+
+```yaml
+---
+source: claude-web
+captured: YYYY-MM-DD
+conversation_id: <uuid>
+---
+```
+
+Then write the conversation as Markdown: for each entry in `chat_messages`, in order, a bold sender label (`**Human:**` or `**Claude:**` based on the `sender` field) followed by the message text. For non-text content (images, attachments, tool use), write a one-line placeholder noting what was present rather than attempting to reproduce it.
+
+**If `raw/local/claude-export/conversations.json` does not exist:** Print `[pull-sources] Source 7 skipped: no Claude.ai export found at raw/local/claude-export/conversations.json.` and continue.
+
+**After processing:** Note to Adrian that the file at `raw/local/claude-export/conversations.json` can be deleted once its conversations have been pulled — re-running with the same file is safe (dedupe by uuid) but unnecessary.
+
+---
+
 ## After All Sources
 
 Append a single timestamped entry to `wiki/log.md` in this format:
@@ -219,6 +255,7 @@ Append a single timestamped entry to `wiki/log.md` in this format:
 | Local Desktop | N | N |
 | Google Drive | N | N |
 | Canva | N | N |
+| Claude.ai Chat Export | N | N |
 ```
 
 ---
